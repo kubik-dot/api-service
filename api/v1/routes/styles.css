@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.api-docs {
+    padding: 20px;
+}
+
+.api-docs h1, .api-docs h2, .api-docs h3, .api-docs h4, .api-docs h5, .api-docs h6 {
+    margin-top: 20px;
+}
+
+.api-docs h1 {
+    font-size: 24px;
+}
+
+.api-docs h2 {
+    font-size: 18px;
+}
+
+.api-docs h3 {
+    font-size: 16px;
+}
+
+.api-docs h4, .api-docs h5, .api-docs h6 {
+    font-size: 14px;
+}
+
+.api-docs p {
+    margin-bottom: 20px;
+}
+
+.api-docs ul, .api-docs ol {
+    list-style-position: outside;
+    list-style-type: disc;
+    padding: 0;
+    margin: 0;
+}
+
+.api-docs ul li, .api-docs ol li {
+    margin-bottom: 10px;
+}
+
+.api-docs a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.api-docs a:hover {
+    text-decoration: underline;
+}
+
+.api-docs table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.api-docs th, .api-docs td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.api-docs th {
+    background-color: #f7f7f7;
+}
+
+.api-docs tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.api-docs tr:hover {
+    background-color: #f5f5f5;
+}
+
+.api-docs td {
+    vertical-align: top;
+}
+
+.api-docs code {
+    background-color: #f7f7f7;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+.api-docs pre {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: monospace;
+}
